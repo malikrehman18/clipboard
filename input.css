@@ -11,7 +11,7 @@
   @apply flex flex-col justify-center space-y-6 md:space-y-0 md:flex-row md:space-x-4;
 }
 .section-container {
-  @apply max-w-6xl mx-auto text-center;
+  @apply max-w-6xl mx-auto text-center px-10;
 }
 body {
   background-image: url("../images/bg-header-desktop.png");

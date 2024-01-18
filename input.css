@@ -6,6 +6,9 @@
   h2 {
     @apply text-4xl md:text-5xl font-bold text-darkGrayishBlue mb-8;
   }
+  h3 {
+    @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+  }
 }
 .buttons-container {
   @apply flex flex-col justify-center space-y-6 md:space-y-0 md:flex-row md:space-x-4;
@@ -22,4 +25,8 @@ body {
   body {
     background-image: url("../images/bg-header-mobile.png");
   }
+}
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
 }
